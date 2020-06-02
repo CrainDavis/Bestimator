@@ -21,17 +21,25 @@ Are you the __best__ at __estimating__? With BESTimator, test to see how good yo
 ---
 
 ## Installation:
-No is installation required.
+No installation is required.
 
 ---
 
 ## Usage:
 Go to [this link](https://the-bestimator.herokuapp.com/) to use the application.
 
+instructions for new users (see the demonstration video below as well):
+* __step 1:__ Create an account by clicking the "sign up" button. Enter a unique username that is between 1 and 20 characters, as well as a password. Click "sign up" to complete.
+* __step 2:__ Upon signing up or logging in, you will be brought to your Player Profile page. Here, you can view your current stats (accuracy & rank), your daily scores for the last 5 days, and click "PLAY" to start the game.
+    * __note:__ _Users are only allowed to answer 5 questions a day. If you have already logged in and played that day, you will not be able to play again until after midnight (UTC-0)._
+* __step 3:__ Click the "PLAY" button and answer each of the 5 questions (each asking you to estimate the quantity, height, weight, etc. of something based on an image).
+* __step 4:__ Upon answering all 5 questions, you will be redirected to the _Leaderboard Page_, where to can see how well you rank against other players. You can also navigate back to the _Player Page_ by clicking the button on the top-left corner of the screen.
+* __step 5:__ Please remember to logout once done playing and viewing scores.
+
 ---
 
 ## Demonstration:
-coming soon...
+Go to [this link](https://drive.google.com/file/d/1fDYxFkJNnOrkpX1yfp5RU5QwE5cD7LVF/view) to see a video demo on how to sign up and play BESTimator.
 
 ---
 
@@ -91,10 +99,10 @@ The cypress tests can be viewed by cloning this repository to your local machine
 ---
 
 ## Future Development:
-* bug fixes & minor improvements:
+* __bug fixes & minor improvements:__
   * signup page: notify user if their username is already being used by someone else (on front-end)
   * login page: notify user if their username/password are either incorrect or do not exist (on front-end)
   * add keyup events to several pages so that user can hit 'enter' key to submit info/guess/etc, rather than clicking the button
-* larger plans:
+* __larger plans:__
   * forum page
   * sponsorship (?)
