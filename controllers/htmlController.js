@@ -8,21 +8,21 @@ const isAuthenticated = require("../config/middleware/isAuthenticated");
 /**
  * Home Page
  */
-router.get("/", function(req, res) {
+router.get("/", function (req, res) {
   res.render("index", { user: req.user });
 });
 
 /**
  * Home Page, again
  */
-router.get("/home", function(req, res) {
+router.get("/home", function (req, res) {
   res.render("index", { user: req.user });
 });
 
 /**
  * Signup page
  */
-router.get("/signup", function(req, res) {
+router.get("/signup", function (req, res) {
   if (req.user) {
     res.redirect("/");
   } else {
@@ -33,7 +33,7 @@ router.get("/signup", function(req, res) {
 /**
  * Login page
  */
-router.get("/login", function(req, res) {
+router.get("/login", function (req, res) {
   if (req.user) {
     res.redirect("/");
   } else {
@@ -44,29 +44,29 @@ router.get("/login", function(req, res) {
 /**
  * Game page
  */
-router.get("/game", isAuthenticated, function(req, res) {
+router.get("/game", isAuthenticated, function (req, res) {
   res.render("game", { user: req.user });
 });
 
 /**
  * Player page
  */
-router.get("/player", isAuthenticated, function(req, res) {
+router.get("/player", isAuthenticated, function (req, res) {
   res.render("player", { user: req.user });
 });
 
 /**
  * Leaderboard page
  */
-router.get("/leaderboard", isAuthenticated, function(req, res) {
+router.get("/leaderboard", isAuthenticated, function (req, res) {
   res.render("leaderboard", { user: req.user });
 });
 
 /**
  * Generic Error Page
  */
-router.get("*", function(req, res) {
-res.render("errors/404", { user: req.user });
+router.get("*", function (req, res) {
+  res.render("errors/404", { user: req.user });
 });
 
 module.exports = router;

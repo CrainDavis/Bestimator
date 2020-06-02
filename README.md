@@ -1,5 +1,5 @@
 # The BESTimator
-  ![GitHub repo size](https://img.shields.io/github/repo-size/Linus41/Bestimator?style=for-the-badge) ![GitHub code size](https://img.shields.io/github/languages/code-size/Linus41/Bestimator?color=gold&style=for-the-badge) ![GitHub language count](https://img.shields.io/github/languages/count/Linus41/Bestimator?color=green&style=for-the-badge) ![GitHub top language](https://img.shields.io/github/languages/top/Linus41/Bestimator?color=red&style=for-the-badge)
+  ![GitHub repo size](https://img.shields.io/github/repo-size/CrainDavis/Bestimator?style=for-the-badge) ![GitHub code size](https://img.shields.io/github/languages/code-size/CrainDavis/Bestimator?color=gold&style=for-the-badge) ![GitHub language count](https://img.shields.io/github/languages/count/CrainDavis/Bestimator?color=green&style=for-the-badge) ![GitHub top language](https://img.shields.io/github/languages/top/CrainDavis/Bestimator?color=red&style=for-the-badge)
 
 ---
 
@@ -11,20 +11,32 @@ Are you the __best__ at __estimating__? With BESTimator, test to see how good yo
 ## Table of Contents:
 * [Installation](#installation)
 * [Usage](#usage)
+* [Demonstration](#demonstration)
+* [License](#license)
 * [Resources](#resources)
 * [Tests](#tests)
-* [Contributors](#questions)
+* [Contributors](#contributors)
 * [Future Development](#future-development)
 
 ---
 
 ## Installation:
-none required
+No is installation required.
 
 ---
 
 ## Usage:
-go to application: https://the-bestimator.herokuapp.com/
+Go to [this link](https://the-bestimator.herokuapp.com/) to use the application.
+
+---
+
+## Demonstration:
+coming soon...
+
+---
+
+## License:
+[MIT License](https://opensource.org/licenses/MIT)
 
 ---
 
