@@ -30,10 +30,21 @@ Go to [this link](https://the-bestimator.herokuapp.com/) to use the application.
 
 instructions for new users (see the demonstration video below as well):
 * __step 1:__ Create an account by clicking the "sign up" button. Enter a unique username that is between 1 and 20 characters, as well as a password. Click "sign up" to complete.
+![main page](images/main-page.png)
+![signup page](images/signup-page.png)
+
 * __step 2:__ Upon signing up or logging in, you will be brought to your Player Profile page. Here, you can view your current stats (accuracy & rank), your daily scores for the last 5 days, and click "PLAY" to start the game.
-    * __note:__ _Users are only allowed to answer 5 questions a day. If you have already logged in and played that day, you will not be able to play again until after midnight (UTC-0)._
+![player page](images/player-page.png)
+
+* __note:__ _Users are only allowed to answer 5 questions a day. If you have already logged in and played that day, you will not be able to play again until after midnight (UTC-0)._
+![error modal](images/play-error.png)
+
 * __step 3:__ Click the "PLAY" button and answer each of the 5 questions (each asking you to estimate the quantity, height, weight, etc. of something based on an image).
+![game page](images/game-page.png)
+
 * __step 4:__ Upon answering all 5 questions, you will be redirected to the _Leaderboard Page_, where to can see how well you rank against other players. You can also navigate back to the _Player Page_ by clicking the button on the top-left corner of the screen.
+![leaderboard page](images/leaderboard-page.png)
+
 * __step 5:__ Please remember to logout once done playing and viewing scores.
 
 ---
